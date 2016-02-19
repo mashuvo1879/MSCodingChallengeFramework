@@ -28,8 +28,8 @@
 
 - (void)setDictionary:(NSDictionary *)dictionary
 {
-    self.name = dictionary[MS_NAME] ? : @"";
-    self.country =  dictionary[MS_COUNTRY] ? : @"";
+    self.name = dictionary[MS_NAME] ? : @"No entry for name";
+    self.country =  dictionary[MS_COUNTRY] ? : @"No entry for country";
 }
 
 - (NSString *)description

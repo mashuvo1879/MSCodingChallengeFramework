@@ -29,15 +29,15 @@
 
 - (void)setDictionary:(NSDictionary *)dictionary
 {
-    self.createdTime = [dictionary[MS_CREATED] integerValue];
+    self.creationInfo = dictionary[MS_CREATED] ? [self stringFromCreated:[dictionary[MS_CREATED] integerValue]] : @"No entry for time";
     self.dataType =  [self dataTypeForString:dictionary[MS_TYPE]];
-    self.objectData = [self dataDetails:self.dataType dictionary:dictionary[MS_DATA]] ? : @"";
+    self.objectData = [self dataDetails:self.dataType dictionary:dictionary[MS_DATA]] ? : @"No entry for data";
     self.user = [[MSUser alloc] initWithDictionary:dictionary[MS_USER]];
 }
 
 - (MSDataType)dataTypeForString:(NSString *)string
 {
-    if ([string isEqualToString:MS_TYPE_IMG]) {
+    if (string && [string caseInsensitiveCompare:MS_TYPE_IMG] == NSOrderedSame) {
         return MSDataTypeImage;
     }
     else {
@@ -65,12 +65,54 @@
 - (NSString *)description
 {
     NSDictionary *dict = @{
-                           MS_CREATED : @(self.createdTime),
+                           MS_CREATED : self.creationInfo,
                            MS_TYPE : @(self.dataType),
                            MS_DATA : self.objectData,
                            MS_USER : [self.user description]
                            };
     return [dict description];
+}
+
+- (NSString *)stringFromCreated:(NSInteger)created
+{
+    if(created > 0) {
+        return @"invalid time";
+    }
+    return [self relativeDateStringForDate:[NSDate dateWithTimeIntervalSinceNow:created]];
+}
+
+- (NSString *)relativeDateStringForDate:(NSDate *)date
+{
+    NSCalendarUnit calendarUnits = NSCalendarUnitSecond
+                         | NSCalendarUnitMinute
+                         | NSCalendarUnitHour
+                         | NSCalendarUnitDay
+                         | NSCalendarUnitWeekOfYear
+                         | NSCalendarUnitMonth
+                         | NSCalendarUnitYear;
+    
+    NSDateComponents *components = [[NSCalendar currentCalendar] components:calendarUnits
+                                                                   fromDate:date
+                                                                     toDate:[NSDate date]
+                                                                    options:0];
+    
+    if (components.year > 0) {
+        return [NSString stringWithFormat:@"%tu years ago", components.year];
+    } else if (components.month > 0) {
+        return [NSString stringWithFormat:@"%tu months ago", components.month];
+    } else if (components.weekOfYear > 0) {
+        return [NSString stringWithFormat:@"%tu weeks ago", components.weekOfYear];
+    } else if (components.day > 0) {
+        return [NSString stringWithFormat:@"%tu days ago", components.day];
+    } else if (components.hour > 0) {
+        return [NSString stringWithFormat:@"%tu hour ago", components.hour];
+    } else if (components.minute > 0) {
+        return [NSString stringWithFormat:@"%tu minute ago", components.minute];
+    } else if (components.second > 0) {
+        return [NSString stringWithFormat:@"%tu second ago", components.second];
+    } else {
+        return @"just now";
+    }
 }
 
 @end

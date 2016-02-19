@@ -23,9 +23,9 @@ typedef NS_ENUM(NSUInteger, MSDataType) {
 @interface MSObject : NSObject
 
 /**
- *  Creation time from now.
+ *  When the object is created.
  */
-@property (nonatomic, assign) NSInteger createdTime;
+@property (nonatomic, strong) NSString *creationInfo;
 
 /**
  *  Data type.
