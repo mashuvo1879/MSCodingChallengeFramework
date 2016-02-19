@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DD3623C51874CA948AC754B61E92CC0D260315EF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DD3623C51874CA948AC754B61E92CC0D260315EF" : 0,
+    "57C9D7F786DC63749C5EB702386BB5761D0C846B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "240D0FDF-8C59-45A8-9543-78472C069721",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DD3623C51874CA948AC754B61E92CC0D260315EF" : "MSChallengeFramework\/",
+    "57C9D7F786DC63749C5EB702386BB5761D0C846B" : "..\/..\/Repositories\/MSCodingChallengeFramework%20copy"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MSChallenge",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MSChallenge.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mashuvo1879\/MSCodingChallengeFramework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57C9D7F786DC63749C5EB702386BB5761D0C846B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MasudShuvo\/MSChallengeFramework",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DD3623C51874CA948AC754B61E92CC0D260315EF"
+    }
+  ]
+}
