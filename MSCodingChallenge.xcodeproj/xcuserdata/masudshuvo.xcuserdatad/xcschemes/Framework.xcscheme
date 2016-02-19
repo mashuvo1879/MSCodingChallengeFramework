@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A0CAB2CD1B778AE7008D7873"
-               BuildableName = "libMSChallenge.a"
-               BlueprintName = "MSChallenge"
-               ReferencedContainer = "container:MSChallenge.xcodeproj">
+               BlueprintIdentifier = "A0CAB3131B778E19008D7873"
+               BuildableName = "Framework"
+               BlueprintName = "Framework"
+               ReferencedContainer = "container:MSCodingChallenge.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A0CAB2D81B778AE7008D7873"
-               BuildableName = "MSChallengeTests.xctest"
-               BlueprintName = "MSChallengeTests"
-               ReferencedContainer = "container:MSChallenge.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0CAB2CD1B778AE7008D7873"
-            BuildableName = "libMSChallenge.a"
-            BlueprintName = "MSChallenge"
-            ReferencedContainer = "container:MSChallenge.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0CAB2CD1B778AE7008D7873"
-            BuildableName = "libMSChallenge.a"
-            BlueprintName = "MSChallenge"
-            ReferencedContainer = "container:MSChallenge.xcodeproj">
+            BlueprintIdentifier = "A0CAB3131B778E19008D7873"
+            BuildableName = "Framework"
+            BlueprintName = "Framework"
+            ReferencedContainer = "container:MSCodingChallenge.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0CAB2CD1B778AE7008D7873"
-            BuildableName = "libMSChallenge.a"
-            BlueprintName = "MSChallenge"
-            ReferencedContainer = "container:MSChallenge.xcodeproj">
+            BlueprintIdentifier = "A0CAB3131B778E19008D7873"
+            BuildableName = "Framework"
+            BlueprintName = "Framework"
+            ReferencedContainer = "container:MSCodingChallenge.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
