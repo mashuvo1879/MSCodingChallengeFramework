@@ -28,9 +28,9 @@
 		EF6E6B611C7712F300DFFC7D /* MSCodingChallenge.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B5E1C7712F300DFFC7D /* MSCodingChallenge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF6E6B621C7712F300DFFC7D /* MSCodingChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B5F1C7712F300DFFC7D /* MSCodingChallenge.m */; };
 		EF6E6B8E1C7733B600DFFC7D /* MSConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B8D1C7733B600DFFC7D /* MSConstant.h */; };
-		EF6E6B941C7733CB00DFFC7D /* MSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B901C7733CB00DFFC7D /* MSObject.h */; };
+		EF6E6B941C7733CB00DFFC7D /* MSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B901C7733CB00DFFC7D /* MSObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF6E6B951C7733CB00DFFC7D /* MSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B911C7733CB00DFFC7D /* MSObject.m */; };
-		EF6E6B961C7733CB00DFFC7D /* MSUser.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B921C7733CB00DFFC7D /* MSUser.h */; };
+		EF6E6B961C7733CB00DFFC7D /* MSUser.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B921C7733CB00DFFC7D /* MSUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF6E6B971C7733CB00DFFC7D /* MSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B931C7733CB00DFFC7D /* MSUser.m */; };
 		EF6E6B9A1C7734B600DFFC7D /* MSObject_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B981C7734B600DFFC7D /* MSObject_Test.m */; };
 		EF6E6B9B1C7734B600DFFC7D /* MSUser_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B991C7734B600DFFC7D /* MSUser_Test.m */; };
@@ -193,9 +193,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF6E6B8E1C7733B600DFFC7D /* MSConstant.h in Headers */,
-				EF6E6B9F1C77351100DFFC7D /* MSObjectDataService.h in Headers */,
 				EF6E6B961C7733CB00DFFC7D /* MSUser.h in Headers */,
 				EF6E6B941C7733CB00DFFC7D /* MSObject.h in Headers */,
+				EF6E6B9F1C77351100DFFC7D /* MSObjectDataService.h in Headers */,
 				EF6E6B611C7712F300DFFC7D /* MSCodingChallenge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
