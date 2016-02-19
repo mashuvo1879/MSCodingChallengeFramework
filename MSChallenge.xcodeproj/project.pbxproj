@@ -27,6 +27,11 @@
 		A0CAB3081B778B99008D7873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CAB3041B778B76008D7873 /* Foundation.framework */; };
 		EF6E6B611C7712F300DFFC7D /* MSCodingChallenge.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B5E1C7712F300DFFC7D /* MSCodingChallenge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF6E6B621C7712F300DFFC7D /* MSCodingChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B5F1C7712F300DFFC7D /* MSCodingChallenge.m */; };
+		EF6E6B8E1C7733B600DFFC7D /* MSConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B8D1C7733B600DFFC7D /* MSConstant.h */; };
+		EF6E6B941C7733CB00DFFC7D /* MSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B901C7733CB00DFFC7D /* MSObject.h */; };
+		EF6E6B951C7733CB00DFFC7D /* MSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B911C7733CB00DFFC7D /* MSObject.m */; };
+		EF6E6B961C7733CB00DFFC7D /* MSUser.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B921C7733CB00DFFC7D /* MSUser.h */; };
+		EF6E6B971C7733CB00DFFC7D /* MSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B931C7733CB00DFFC7D /* MSUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +71,11 @@
 		A0CAB3041B778B76008D7873 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF6E6B5E1C7712F300DFFC7D /* MSCodingChallenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCodingChallenge.h; sourceTree = "<group>"; };
 		EF6E6B5F1C7712F300DFFC7D /* MSCodingChallenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCodingChallenge.m; sourceTree = "<group>"; };
+		EF6E6B8D1C7733B600DFFC7D /* MSConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSConstant.h; sourceTree = "<group>"; };
+		EF6E6B901C7733CB00DFFC7D /* MSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSObject.h; sourceTree = "<group>"; };
+		EF6E6B911C7733CB00DFFC7D /* MSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSObject.m; sourceTree = "<group>"; };
+		EF6E6B921C7733CB00DFFC7D /* MSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUser.h; sourceTree = "<group>"; };
+		EF6E6B931C7733CB00DFFC7D /* MSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +123,8 @@
 			children = (
 				EF6E6B5E1C7712F300DFFC7D /* MSCodingChallenge.h */,
 				EF6E6B5F1C7712F300DFFC7D /* MSCodingChallenge.m */,
+				EF6E6B8D1C7733B600DFFC7D /* MSConstant.h */,
+				EF6E6B8F1C7733CB00DFFC7D /* DataModels */,
 			);
 			path = MSChallenge;
 			sourceTree = "<group>";
@@ -142,6 +154,17 @@
 			name = Framework;
 			sourceTree = "<group>";
 		};
+		EF6E6B8F1C7733CB00DFFC7D /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				EF6E6B901C7733CB00DFFC7D /* MSObject.h */,
+				EF6E6B911C7733CB00DFFC7D /* MSObject.m */,
+				EF6E6B921C7733CB00DFFC7D /* MSUser.h */,
+				EF6E6B931C7733CB00DFFC7D /* MSUser.m */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -149,6 +172,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6E6B8E1C7733B600DFFC7D /* MSConstant.h in Headers */,
+				EF6E6B961C7733CB00DFFC7D /* MSUser.h in Headers */,
+				EF6E6B941C7733CB00DFFC7D /* MSObject.h in Headers */,
 				EF6E6B611C7712F300DFFC7D /* MSCodingChallenge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +304,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6E6B951C7733CB00DFFC7D /* MSObject.m in Sources */,
+				EF6E6B971C7733CB00DFFC7D /* MSUser.m in Sources */,
 				EF6E6B621C7712F300DFFC7D /* MSCodingChallenge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
