@@ -32,6 +32,8 @@
 		EF6E6B951C7733CB00DFFC7D /* MSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B911C7733CB00DFFC7D /* MSObject.m */; };
 		EF6E6B961C7733CB00DFFC7D /* MSUser.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B921C7733CB00DFFC7D /* MSUser.h */; };
 		EF6E6B971C7733CB00DFFC7D /* MSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B931C7733CB00DFFC7D /* MSUser.m */; };
+		EF6E6B9A1C7734B600DFFC7D /* MSObject_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B981C7734B600DFFC7D /* MSObject_Test.m */; };
+		EF6E6B9B1C7734B600DFFC7D /* MSUser_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B991C7734B600DFFC7D /* MSUser_Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		EF6E6B911C7733CB00DFFC7D /* MSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSObject.m; sourceTree = "<group>"; };
 		EF6E6B921C7733CB00DFFC7D /* MSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUser.h; sourceTree = "<group>"; };
 		EF6E6B931C7733CB00DFFC7D /* MSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUser.m; sourceTree = "<group>"; };
+		EF6E6B981C7734B600DFFC7D /* MSObject_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSObject_Test.m; sourceTree = "<group>"; };
+		EF6E6B991C7734B600DFFC7D /* MSUser_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUser_Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 		A0CAB2DD1B778AE7008D7873 /* MSChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
+				EF6E6B981C7734B600DFFC7D /* MSObject_Test.m */,
+				EF6E6B991C7734B600DFFC7D /* MSUser_Test.m */,
 				A0CAB2DE1B778AE7008D7873 /* Supporting Files */,
 			);
 			path = MSChallengeTests;
@@ -314,6 +320,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6E6B9B1C7734B600DFFC7D /* MSUser_Test.m in Sources */,
+				EF6E6B9A1C7734B600DFFC7D /* MSObject_Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
