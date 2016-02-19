@@ -22,11 +22,20 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		A0CAB2DA1B778AE7008D7873 /* libMSChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CAB2CE1B778AE7008D7873 /* libMSChallenge.a */; };
+		A0CAB2DA1B778AE7008D7873 /* libMSCodingChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CAB2CE1B778AE7008D7873 /* libMSCodingChallenge.a */; };
 		A0CAB3071B778B94008D7873 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CAB3021B778B6F008D7873 /* UIKit.framework */; };
 		A0CAB3081B778B99008D7873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CAB3041B778B76008D7873 /* Foundation.framework */; };
 		EF6E6B611C7712F300DFFC7D /* MSCodingChallenge.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B5E1C7712F300DFFC7D /* MSCodingChallenge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF6E6B621C7712F300DFFC7D /* MSCodingChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B5F1C7712F300DFFC7D /* MSCodingChallenge.m */; };
+		EF6E6B8E1C7733B600DFFC7D /* MSConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B8D1C7733B600DFFC7D /* MSConstant.h */; };
+		EF6E6B941C7733CB00DFFC7D /* MSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B901C7733CB00DFFC7D /* MSObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF6E6B951C7733CB00DFFC7D /* MSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B911C7733CB00DFFC7D /* MSObject.m */; };
+		EF6E6B961C7733CB00DFFC7D /* MSUser.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B921C7733CB00DFFC7D /* MSUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF6E6B971C7733CB00DFFC7D /* MSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B931C7733CB00DFFC7D /* MSUser.m */; };
+		EF6E6B9A1C7734B600DFFC7D /* MSObject_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B981C7734B600DFFC7D /* MSObject_Test.m */; };
+		EF6E6B9B1C7734B600DFFC7D /* MSUser_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B991C7734B600DFFC7D /* MSUser_Test.m */; };
+		EF6E6B9F1C77351100DFFC7D /* MSObjectDataService.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6E6B9D1C77351100DFFC7D /* MSObjectDataService.h */; };
+		EF6E6BA01C77351100DFFC7D /* MSObjectDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E6B9E1C77351100DFFC7D /* MSObjectDataService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,13 +68,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A0CAB2CE1B778AE7008D7873 /* libMSChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSChallenge.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0CAB2D91B778AE7008D7873 /* MSChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CAB2CE1B778AE7008D7873 /* libMSCodingChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSCodingChallenge.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CAB2D91B778AE7008D7873 /* MSCodingChallenge.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSCodingChallenge.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CAB2DF1B778AE7008D7873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0CAB3021B778B6F008D7873 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A0CAB3041B778B76008D7873 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF6E6B5E1C7712F300DFFC7D /* MSCodingChallenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCodingChallenge.h; sourceTree = "<group>"; };
 		EF6E6B5F1C7712F300DFFC7D /* MSCodingChallenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCodingChallenge.m; sourceTree = "<group>"; };
+		EF6E6B8D1C7733B600DFFC7D /* MSConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSConstant.h; sourceTree = "<group>"; };
+		EF6E6B901C7733CB00DFFC7D /* MSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSObject.h; sourceTree = "<group>"; };
+		EF6E6B911C7733CB00DFFC7D /* MSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSObject.m; sourceTree = "<group>"; };
+		EF6E6B921C7733CB00DFFC7D /* MSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUser.h; sourceTree = "<group>"; };
+		EF6E6B931C7733CB00DFFC7D /* MSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUser.m; sourceTree = "<group>"; };
+		EF6E6B981C7734B600DFFC7D /* MSObject_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSObject_Test.m; sourceTree = "<group>"; };
+		EF6E6B991C7734B600DFFC7D /* MSUser_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUser_Test.m; sourceTree = "<group>"; };
+		EF6E6B9D1C77351100DFFC7D /* MSObjectDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSObjectDataService.h; sourceTree = "<group>"; };
+		EF6E6B9E1C77351100DFFC7D /* MSObjectDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSObjectDataService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0CAB2DA1B778AE7008D7873 /* libMSChallenge.a in Frameworks */,
+				A0CAB2DA1B778AE7008D7873 /* libMSCodingChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,8 +120,8 @@
 		A0CAB2CF1B778AE7008D7873 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0CAB2CE1B778AE7008D7873 /* libMSChallenge.a */,
-				A0CAB2D91B778AE7008D7873 /* MSChallengeTests.xctest */,
+				A0CAB2CE1B778AE7008D7873 /* libMSCodingChallenge.a */,
+				A0CAB2D91B778AE7008D7873 /* MSCodingChallenge.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +131,9 @@
 			children = (
 				EF6E6B5E1C7712F300DFFC7D /* MSCodingChallenge.h */,
 				EF6E6B5F1C7712F300DFFC7D /* MSCodingChallenge.m */,
+				EF6E6B8D1C7733B600DFFC7D /* MSConstant.h */,
+				EF6E6B9C1C77351100DFFC7D /* DataServices */,
+				EF6E6B8F1C7733CB00DFFC7D /* DataModels */,
 			);
 			path = MSChallenge;
 			sourceTree = "<group>";
@@ -120,6 +141,8 @@
 		A0CAB2DD1B778AE7008D7873 /* MSChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
+				EF6E6B981C7734B600DFFC7D /* MSObject_Test.m */,
+				EF6E6B991C7734B600DFFC7D /* MSUser_Test.m */,
 				A0CAB2DE1B778AE7008D7873 /* Supporting Files */,
 			);
 			path = MSChallengeTests;
@@ -142,6 +165,26 @@
 			name = Framework;
 			sourceTree = "<group>";
 		};
+		EF6E6B8F1C7733CB00DFFC7D /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				EF6E6B901C7733CB00DFFC7D /* MSObject.h */,
+				EF6E6B911C7733CB00DFFC7D /* MSObject.m */,
+				EF6E6B921C7733CB00DFFC7D /* MSUser.h */,
+				EF6E6B931C7733CB00DFFC7D /* MSUser.m */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		EF6E6B9C1C77351100DFFC7D /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				EF6E6B9D1C77351100DFFC7D /* MSObjectDataService.h */,
+				EF6E6B9E1C77351100DFFC7D /* MSObjectDataService.m */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -149,6 +192,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6E6B8E1C7733B600DFFC7D /* MSConstant.h in Headers */,
+				EF6E6B961C7733CB00DFFC7D /* MSUser.h in Headers */,
+				EF6E6B941C7733CB00DFFC7D /* MSObject.h in Headers */,
+				EF6E6B9F1C77351100DFFC7D /* MSObjectDataService.h in Headers */,
 				EF6E6B611C7712F300DFFC7D /* MSCodingChallenge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,9 +203,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A0CAB2CD1B778AE7008D7873 /* MSChallenge */ = {
+		A0CAB2CD1B778AE7008D7873 /* MSCodingChallenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0CAB2E21B778AE7008D7873 /* Build configuration list for PBXNativeTarget "MSChallenge" */;
+			buildConfigurationList = A0CAB2E21B778AE7008D7873 /* Build configuration list for PBXNativeTarget "MSCodingChallenge" */;
 			buildPhases = (
 				A0CAB2CA1B778AE7008D7873 /* Sources */,
 				A0CAB2CB1B778AE7008D7873 /* Frameworks */,
@@ -170,14 +217,14 @@
 			);
 			dependencies = (
 			);
-			name = MSChallenge;
+			name = MSCodingChallenge;
 			productName = MSChallenge;
-			productReference = A0CAB2CE1B778AE7008D7873 /* libMSChallenge.a */;
+			productReference = A0CAB2CE1B778AE7008D7873 /* libMSCodingChallenge.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A0CAB2D81B778AE7008D7873 /* MSChallengeTests */ = {
+		A0CAB2D81B778AE7008D7873 /* MSCodingChallengeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0CAB2E51B778AE7008D7873 /* Build configuration list for PBXNativeTarget "MSChallengeTests" */;
+			buildConfigurationList = A0CAB2E51B778AE7008D7873 /* Build configuration list for PBXNativeTarget "MSCodingChallengeTests" */;
 			buildPhases = (
 				A0CAB2D51B778AE7008D7873 /* Sources */,
 				A0CAB2D61B778AE7008D7873 /* Frameworks */,
@@ -188,9 +235,9 @@
 			dependencies = (
 				A0CAB2DC1B778AE7008D7873 /* PBXTargetDependency */,
 			);
-			name = MSChallengeTests;
+			name = MSCodingChallengeTests;
 			productName = MSChallengeTests;
-			productReference = A0CAB2D91B778AE7008D7873 /* MSChallengeTests.xctest */;
+			productReference = A0CAB2D91B778AE7008D7873 /* MSCodingChallenge.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +246,7 @@
 		A0CAB2C61B778AE7008D7873 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Shuvo;
 				TargetAttributes = {
 					A0CAB2CD1B778AE7008D7873 = {
@@ -213,7 +260,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A0CAB2C91B778AE7008D7873 /* Build configuration list for PBXProject "MSChallenge" */;
+			buildConfigurationList = A0CAB2C91B778AE7008D7873 /* Build configuration list for PBXProject "MSCodingChallenge" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -225,8 +272,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0CAB2CD1B778AE7008D7873 /* MSChallenge */,
-				A0CAB2D81B778AE7008D7873 /* MSChallengeTests */,
+				A0CAB2CD1B778AE7008D7873 /* MSCodingChallenge */,
+				A0CAB2D81B778AE7008D7873 /* MSCodingChallengeTests */,
 				A0CAB3131B778E19008D7873 /* Framework */,
 			);
 		};
@@ -269,7 +316,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$WSDT_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport WSDT_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\n############WSDT_FRAMEWORK_NAME=${PROJECT_NAME}\nWSDT_FRAMEWORK_NAME=MSChallenge\n############WSDT_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nWSDT_INPUT_STATIC_LIB=\"lib${WSDT_FRAMEWORK_NAME}.a\"\nWSDT_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${WSDT_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction build_static_library_for_xcworkspace {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -workspace \"${PROJECT_DIR}/${PROJECT_NAME}.xcworkspace\" \\\n    -scheme \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nWSDT_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nWSDT_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$WSDT_SDK_PLATFORM\" == \"iphoneos\" ]; then\nWSDT_OTHER_PLATFORM=iphonesimulator\nelse\nWSDT_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$WSDT_SDK_PLATFORM$ ]]; then\nWSDT_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${WSDT_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${WSDT_OTHER_PLATFORM}${WSDT_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$WSDT_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${WSDT_INPUT_STATIC_LIB}\" \\\n\"${WSDT_OTHER_BUILT_PRODUCTS_DIR}/${WSDT_INPUT_STATIC_LIB}\" \\\n\"${WSDT_FRAMEWORK_LOCATION}/Versions/A/${WSDT_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${WSDT_FRAMEWORK_LOCATION}/Versions/A/${WSDT_FRAMEWORK_NAME}\" \\\n\"${WSDT_OTHER_BUILT_PRODUCTS_DIR}/${WSDT_FRAMEWORK_NAME}.framework/Versions/A/${WSDT_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\n#ditto \"${WSDT_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${WSDT_FRAMEWORK_NAME}.framework\"\nditto \"${WSDT_FRAMEWORK_LOCATION}\" \"${SOURCE_ROOT}/${WSDT_FRAMEWORK_NAME}.framework\"";
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$WSDT_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport WSDT_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\n############WSDT_FRAMEWORK_NAME=${PROJECT_NAME}\nWSDT_FRAMEWORK_NAME=${PROJECT_NAME}\n############WSDT_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nWSDT_INPUT_STATIC_LIB=\"lib${WSDT_FRAMEWORK_NAME}.a\"\nWSDT_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${WSDT_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction build_static_library_for_xcworkspace {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -workspace \"${PROJECT_DIR}/${PROJECT_NAME}.xcworkspace\" \\\n    -scheme \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nWSDT_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nWSDT_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$WSDT_SDK_PLATFORM\" == \"iphoneos\" ]; then\nWSDT_OTHER_PLATFORM=iphonesimulator\nelse\nWSDT_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$WSDT_SDK_PLATFORM$ ]]; then\nWSDT_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${WSDT_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${WSDT_OTHER_PLATFORM}${WSDT_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$WSDT_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${WSDT_INPUT_STATIC_LIB}\" \\\n\"${WSDT_OTHER_BUILT_PRODUCTS_DIR}/${WSDT_INPUT_STATIC_LIB}\" \\\n\"${WSDT_FRAMEWORK_LOCATION}/Versions/A/${WSDT_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${WSDT_FRAMEWORK_LOCATION}/Versions/A/${WSDT_FRAMEWORK_NAME}\" \\\n\"${WSDT_OTHER_BUILT_PRODUCTS_DIR}/${WSDT_FRAMEWORK_NAME}.framework/Versions/A/${WSDT_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\n#ditto \"${WSDT_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${WSDT_FRAMEWORK_NAME}.framework\"\nditto \"${WSDT_FRAMEWORK_LOCATION}\" \"${SOURCE_ROOT}/${WSDT_FRAMEWORK_NAME}.framework\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -278,6 +325,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6E6B951C7733CB00DFFC7D /* MSObject.m in Sources */,
+				EF6E6B971C7733CB00DFFC7D /* MSUser.m in Sources */,
+				EF6E6BA01C77351100DFFC7D /* MSObjectDataService.m in Sources */,
 				EF6E6B621C7712F300DFFC7D /* MSCodingChallenge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +336,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6E6B9B1C7734B600DFFC7D /* MSUser_Test.m in Sources */,
+				EF6E6B9A1C7734B600DFFC7D /* MSObject_Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +346,12 @@
 /* Begin PBXTargetDependency section */
 		A0CAB2DC1B778AE7008D7873 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A0CAB2CD1B778AE7008D7873 /* MSChallenge */;
+			target = A0CAB2CD1B778AE7008D7873 /* MSCodingChallenge */;
 			targetProxy = A0CAB2DB1B778AE7008D7873 /* PBXContainerItemProxy */;
 		};
 		A0CAB3181B778E37008D7873 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A0CAB2CD1B778AE7008D7873 /* MSChallenge */;
+			target = A0CAB2CD1B778AE7008D7873 /* MSCodingChallenge */;
 			targetProxy = A0CAB3171B778E37008D7873 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -325,6 +377,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -390,7 +443,7 @@
 				DEAD_CODE_STRIPPING = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MSCodingChallenge;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
@@ -404,7 +457,7 @@
 				DEAD_CODE_STRIPPING = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MSCodingChallenge;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
@@ -425,7 +478,8 @@
 				);
 				INFOPLIST_FILE = MSChallengeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "MS.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MSCodingChallenge;
 			};
 			name = Debug;
 		};
@@ -439,7 +493,8 @@
 				);
 				INFOPLIST_FILE = MSChallengeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "MS.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MSCodingChallenge;
 			};
 			name = Release;
 		};
@@ -460,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0CAB2C91B778AE7008D7873 /* Build configuration list for PBXProject "MSChallenge" */ = {
+		A0CAB2C91B778AE7008D7873 /* Build configuration list for PBXProject "MSCodingChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0CAB2E01B778AE7008D7873 /* Debug */,
@@ -469,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0CAB2E21B778AE7008D7873 /* Build configuration list for PBXNativeTarget "MSChallenge" */ = {
+		A0CAB2E21B778AE7008D7873 /* Build configuration list for PBXNativeTarget "MSCodingChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0CAB2E31B778AE7008D7873 /* Debug */,
@@ -478,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0CAB2E51B778AE7008D7873 /* Build configuration list for PBXNativeTarget "MSChallengeTests" */ = {
+		A0CAB2E51B778AE7008D7873 /* Build configuration list for PBXNativeTarget "MSCodingChallengeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0CAB2E61B778AE7008D7873 /* Debug */,
