@@ -8,3 +8,5 @@
 #define MS_COUNTRY @"country"
 #define MS_TYPE_TEXT @"TEXT"
 #define MS_TYPE_IMG @"IMG"
+#define MS_NO_ENTRY @"No entry"
+#define MS_INVALID_DATA @"Invalid data"

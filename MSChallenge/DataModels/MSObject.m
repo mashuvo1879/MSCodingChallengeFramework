@@ -29,9 +29,9 @@
 
 - (void)setDictionary:(NSDictionary *)dictionary
 {
-    self.creationInfo = dictionary[MS_CREATED] ? [self stringFromCreated:[dictionary[MS_CREATED] integerValue]] : @"No entry for time";
+    self.creationInfo = dictionary[MS_CREATED] ? [self stringFromCreated:[dictionary[MS_CREATED] integerValue]] : MS_NO_ENTRY;
     self.dataType =  [self dataTypeForString:dictionary[MS_TYPE]];
-    self.objectData = [self dataDetails:self.dataType dictionary:dictionary[MS_DATA]] ? : @"No entry for data";
+    self.objectData = [self dataDetails:self.dataType dictionary:dictionary[MS_DATA]] ? : MS_NO_ENTRY;
     self.user = [[MSUser alloc] initWithDictionary:dictionary[MS_USER]];
 }
 
@@ -76,7 +76,7 @@
 - (NSString *)stringFromCreated:(NSInteger)created
 {
     if(created > 0) {
-        return @"invalid time";
+        return MS_INVALID_DATA;
     }
     return [self relativeDateStringForDate:[NSDate dateWithTimeIntervalSinceNow:created]];
 }
