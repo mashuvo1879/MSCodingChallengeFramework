@@ -97,21 +97,21 @@
                                                                     options:0];
     
     if (components.year > 0) {
-        return [NSString stringWithFormat:@"%tu years ago", components.year];
+        return [NSString stringWithFormat:@"Created %tu years ago", components.year];
     } else if (components.month > 0) {
-        return [NSString stringWithFormat:@"%tu months ago", components.month];
+        return [NSString stringWithFormat:@"Created %tu months ago", components.month];
     } else if (components.weekOfYear > 0) {
-        return [NSString stringWithFormat:@"%tu weeks ago", components.weekOfYear];
+        return [NSString stringWithFormat:@"Created %tu weeks ago", components.weekOfYear];
     } else if (components.day > 0) {
-        return [NSString stringWithFormat:@"%tu days ago", components.day];
+        return [NSString stringWithFormat:@"Created %tu days ago", components.day];
     } else if (components.hour > 0) {
-        return [NSString stringWithFormat:@"%tu hour ago", components.hour];
+        return [NSString stringWithFormat:@"Created %tu hour ago", components.hour];
     } else if (components.minute > 0) {
-        return [NSString stringWithFormat:@"%tu minute ago", components.minute];
+        return [NSString stringWithFormat:@"Created %tu minute ago", components.minute];
     } else if (components.second > 0) {
-        return [NSString stringWithFormat:@"%tu second ago", components.second];
+        return [NSString stringWithFormat:@"Created %tu second ago", components.second];
     } else {
-        return @"just now";
+        return @"Created just now";
     }
 }
 
