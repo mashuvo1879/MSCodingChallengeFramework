@@ -25,7 +25,9 @@ static NSString *const codingChallengeApiUrl = @"https://private-d847e-demorespo
         
         if (error)
         {
-            completion(nil, error);
+            dispatch_async(dispatch_get_main_queue(), ^{
+                completion(nil, error);
+            });
             return;
         }
         
@@ -34,7 +36,9 @@ static NSString *const codingChallengeApiUrl = @"https://private-d847e-demorespo
         
         if(jsonError)
         {
-            completion(nil, jsonError);
+            dispatch_async(dispatch_get_main_queue(), ^{
+                completion(nil, jsonError);
+            });
             return;
         }
 
@@ -44,7 +48,9 @@ static NSString *const codingChallengeApiUrl = @"https://private-d847e-demorespo
             MSObject *object = [[MSObject alloc] initWithDictionary:obj];
             [mutableAdArray addObject:object];
         }];
-        completion(mutableAdArray, nil);
+        dispatch_async(dispatch_get_main_queue(), ^{
+            completion(mutableAdArray, nil);
+        });
     }];
     [task resume];
 }
